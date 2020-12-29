@@ -9,34 +9,37 @@
     <link rel="stylesheet" href="css/style.css">
   </head>
   <body>
-    <div class="container" id="wrapper">
-      <header class-"row">
-        <nav class="navbar navbar-dark bg-dark d-md-none">
-          <a href="#" class="navbar-brand">Navbar</a>
-          <button class="navbar-toggler" type="buttom" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aira-expanded="false" aria-label="Toggle navigation">
-            <span class="navbar-toggler-icon"></span>
-          </button>
-          <div class="collapse navbar-collapse justyfy-content-end" id="navbarSupportedContent">
-              <ul class="navbar-nav">
-                <li class="nav-item active">
-                  <a class="nav-link" href="#on_air">オンエア内容<span class="sr-only">(current)</span></a>
-                </li>
-                <li class="nav-item active">
-                  <a class="nav-link" href="#mc">MC<span class="sr-only">(current)</span></a>
-                </li>
-                <li class="nav-item active">
-                  <a class="nav-link" href="#on_air_time">各局放送時間<span class="sr-only">(current)</span></a>
-                </li>
-                <li class="nav-item active">
-                  <a class="nav-link" href="#info">お知らせ<span class="sr-only">(current)</span></a>
-                </li>
-              </ul>
-          </div>
-        </nav>
-        <div class="header-wrapper">
-          <img src="media/images/main_visual.jpg">
+    <header>
+      <nav class="navbar navbar-dark bg-dark d-md-none">
+        <a href="#" class="navbar-brand">Navbar</a>
+        <button class="navbar-toggler" type="buttom" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aira-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse justyfy-content-end" id="navbarSupportedContent">
+            <ul class="navbar-nav">
+              <li class="nav-item active">
+                <a class="nav-link" href="#on_air">オンエア内容<span class="sr-only">(current)</span></a>
+              </li>
+              <li class="nav-item active">
+                <a class="nav-link" href="#mc">MC<span class="sr-only">(current)</span></a>
+              </li>
+              <li class="nav-item active">
+                <a class="nav-link" href="#on_air_time">各局放送時間<span class="sr-only">(current)</span></a>
+              </li>
+              <li class="nav-item active">
+                <a class="nav-link" href="#info">お知らせ<span class="sr-only">(current)</span></a>
+              </li>
+            </ul>
         </div>
-      </header>
+      </nav>
+      <div class="header-wrapper container d-none d-md-block">
+        <img src="media/images/main_visual.jpg">
+      </div>
+      <div class="header-wrapper d-block d-md-none">
+        <img src="media/images/main_visual.jpg">
+      </div>
+    </header>
+    <div class="container" id="wrapper">
       <div class="d-none d-md-block">
         <div class="fluid-box">
           <ul class="row nav_list">
