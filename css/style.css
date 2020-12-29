@@ -4,13 +4,10 @@ html{
 }
 
 .header-wrapper {
-  height: 200px;
-  background-image: url(media/images/main_visual.jpg);
-  background-position: left top;
 }
 
-.header-wrapper image{
-
+.header-wrapper img{
+  width: 100%;
 }
 
 .heading {
@@ -32,6 +29,17 @@ html{
   border-top: solid 1px black;
   border-bottom: solid 1px black;
   background-color: gray;
+  display: flex;
+}
+
+.nav_list {
+  margin: auto;
+  justify-content: center;
+  align-items: center;
+}
+
+.nav_list li {
+  padding: 0 30px;
 }
 
 .mc {
@@ -83,16 +91,6 @@ a:hover {
   border-top: solid 1px black;
   border-bottom: solid 1px black;
   text-decoration: none;
-}
-
-.nav_list {
-  margin: auto;
-  justify-content: center;
-  display: flex;
-}
-
-.nav_list li {
-  padding: 0 30px;
 }
 
 #pagetop {

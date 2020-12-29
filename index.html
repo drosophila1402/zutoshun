@@ -11,7 +11,7 @@
   <body>
     <div class="container" id="wrapper">
       <header class-"row">
-        <nav class="navbar navbar-dark bg-dark">
+        <nav class="navbar navbar-dark bg-dark d-md-none">
           <a href="#" class="navbar-brand">Navbar</a>
           <button class="navbar-toggler" type="buttom" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aira-expanded="false" aria-label="Toggle navigation">
             <span class="navbar-toggler-icon"></span>
@@ -34,16 +34,18 @@
           </div>
         </nav>
         <div class="header-wrapper">
-          <!-- <img src="media/images/main_visual.jpg"> -->
+          <img src="media/images/main_visual.jpg">
         </div>
       </header>
-      <div class="row fluid-box">
-        <ul class="row nav_list">
-          <li><a href="#on_air">オンエア内容</a></li>
-          <li><a href="#mc">MC</a></li>
-          <li><a href="#on_air_time">各局放送時間</a></li>
-          <li><a href="#info">お知らせ</a></li>
-        </ul>
+      <div class="d-none d-md-block">
+        <div class="fluid-box">
+          <ul class="row nav_list">
+            <li><a href="#on_air">オンエア内容</a></li>
+            <li><a href="#mc">MC</a></li>
+            <li><a href="#on_air_time">各局放送時間</a></li>
+            <li><a href="#info">お知らせ</a></li>
+          </ul>
+        </div>
       </div>
       <div class="row content-wrapper" id="on_air">
         <h3 class="col-lg-12 heading">オンエア内容</h3>
