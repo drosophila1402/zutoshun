@@ -3,7 +3,13 @@ html{
   scroll-behavior : smooth;
 }
 
-.header-wrapper {
+h4 {
+  font-size: 20px;
+}
+
+.nav .fixed {
+  position: fixed;
+  width: 100%;
 }
 
 .header-wrapper img{
@@ -53,7 +59,6 @@ html{
   display: flex;
   justify-content: center;
   align-items: center;
-  border: 1px solid black;
 }
 
 .image-box:before {
@@ -76,22 +81,28 @@ ul {
 li {
   text-align: center;
 }
-
-li a {
-  margin: auto;
-}
 */
 
-a {
-  color: black;
+li a {
+  color: white;
 }
 
-a:hover {
-  color: black;
-  border-top: solid 1px black;
-  border-bottom: solid 1px black;
+li a:hover {
+  color: #65c3ed;
   text-decoration: none;
 }
+
+a {
+  color: #4e81c8;
+  font-weight: bold;
+}
+
+
+a:hover {
+  color: #65c3ed;
+  text-decoration: none;
+}
+
 
 #pagetop {
   position: fixed;
@@ -99,4 +110,9 @@ a:hover {
   right: 30px;
   font-style: bold;
   font-size: 30px;
+}
+
+.video-content {
+  display: block;
+  margin: 0 auto;
 }
