@@ -8,7 +8,7 @@
     <link rel="stylesheet" href="css/bootstrap.css">
     <link rel="stylesheet" href="css/style.css">
   </head>
-  <body>
+  <body id="top">
     <header>
       <nav class="nav navbar navbar-dark bg-dark d-md-none">
         <button class="navbar-toggler" type="buttom" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aira-expanded="false" aria-label="Toggle navigation">
@@ -52,7 +52,7 @@
       <div class="row content-wrapper" id="introduction">
         <h3 class="col-lg-12 heading">INTRODUCTION</h3>
         <div class="col-lg-12 content">
-          <!--
+
           <table class="table table-borderless">
             <tbody>
               <tr>
@@ -68,9 +68,10 @@
               </tr>
             </tbody>
           </table>
-        -->
+          <!--
           <p>放送時間：テレ玉にて01月07日より毎週木曜日深夜01時30分（25時30分）放送</p>
           <p style="margin-left:5em;text-indent:-5em;">番組内容：ＭＣとキャラクター(アニメ)が出演する新感覚な番組がスタート。<br>学生が歌や声優、ダンス、お笑いなどを学ぶ、学園バラエティー番組です。</p>
+        -->
         </div>
       </div>
       <div class="row content-wrapper" id="on_air">
@@ -78,13 +79,15 @@
         <div class="col-lg-12 content">
           <div class="page_box">
             <h4>[01月]</h4>
-            <table class="table table-bordered border-secondary border-3">
-              <tbody>
+            <table class="table table-bordered border-dark">
+              <thead class="thead-dark">
                 <tr>
                   <th>OA日</th>
                   <th>＃</th>
                   <th>放送内容</th>
                 </tr>
+              </thead>
+              <tbody>
                 <tr>
                   <td>01月07日</td>
                   <td>#1</td>
@@ -127,13 +130,13 @@
         <h3 class="col-lg-12 heading">パーソナリティ</h3>
         <div class="col-lg-12 content">
           <div class="row">
-            <div class="col-xs-12 col-md-6 col-lg-3 text-center mc">
+            <div class="col-xs-6 col-md-6 col-lg-3 text-center mc">
               <h4><a href="https://m-s-y.tokyo/"  target="_blank">歌手：山本雅也</a></h4>
               <div class="image-box">
                 <img src="media/images/mc_1.jpg">
               </div>
             </div>
-            <div class="col-xs-12 col-md-6 col-lg-3 text-center mc">
+            <div class="col-xs-6 col-md-6 col-lg-3 text-center mc">
               <h4>ダンサー・歌手：YONA</h4>
               <div class="image-box">
                 <img src="media/images/mc_2.jpg">
@@ -152,13 +155,15 @@
         <h3 class="col-lg-12 heading">お知らせ</h3>
         <div class="col-lg-12 content">
           <p><a href="https://www.youtube.com/channel/UC6iLtdYcdUVc8WlnIfy1ZDg" target="_blank">山本雅也オフィシャルYouTube</a>にて毎週リモートセッションライブ映像をお届け！</p>
-          <div class="video">
-            <iframe class="video-content" width="560" height="315" src="https://www.youtube.com/embed/-xO0QdvHEvg" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+          <div class="video col-xs-12 col-md-8 offset-md-2">
+            <div class="video-inner">
+              <iframe class="video-content" src="https://www.youtube.com/embed/-xO0QdvHEvg" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+            </div>
           </div>
         </div>
       </div>
       <div id="pagetop">
-        <a href="#wrapper">
+        <a href="#top">
           ↑
         </a>
 
