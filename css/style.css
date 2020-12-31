@@ -28,7 +28,7 @@ h4 {
 
 .fluid-box {
   height: 50px;
-  width: 101vw;
+  width: 99vw;
   position: relative;
   left: 50%;
   transform: translateX(-50%);
