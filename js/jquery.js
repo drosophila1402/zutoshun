@@ -1,15 +1,10 @@
-var _window = $(window),
-    _header = $('.nav'),
-    imgBottom;
-
-_window.on('scroll',function(){
-    imgBottom = 100px;
-    if(_window.scrollTop() > imgBottom){
-        _header.addClass('fixed');
-    }
-    else{
-        _header.removeClass('fixed');
-    }
+$(function(){
+   $('a[href^="#"]').click(function() {
+      var href= $(this).attr("href");
+      var target = $(href == "#" || href == "" ? 'html' : href);
+      var position = target.offset().top;
+      var speed = 500; // スクロールの速度（ミリ秒）
+      $('body,html').animate({scrollTop:position}, speed, 'swing'); // スクロール方式
+      return false;
+   });
 });
-
-_window.trigger('scroll');
